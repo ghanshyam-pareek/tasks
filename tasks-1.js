@@ -62,3 +62,17 @@ console.log('Biggest Number', bigNum);
         }
     }
 console.log('for-of-odd value',oddVal);
+
+// Middle value is even or odd
+let c = [152,258,545,625,325,123,654,789,456,321];
+
+let even = 0;
+for (let i = 0; i < c.length; i++) {
+    even = c[i];
+    let secondDigit = ((even % 100 - even % 10) / 10);
+   if (secondDigit % 2 === 0) {
+        console.log('Second digit of', even, 'is', secondDigit);
+    } else {
+        console.log('Second digit of', even, 'is not even');
+    }  
+}
