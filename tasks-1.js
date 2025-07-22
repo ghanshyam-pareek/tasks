@@ -8,7 +8,7 @@ console.log('Sum of the array', sum);
 
 
 
-// 2.  Biggest number and second-biggest number in the array
+// 2 & 3 Tasks :  Biggest number and second-biggest number in the array
 let  bigNum = 0;
 for (let i = 0; i < largest.length; i++) {
     if (largest[i] > bigNum) {
@@ -36,7 +36,7 @@ console.log('Second Biggest Number', secondBig);
 console.log('Biggest Number', bigNum); 
 
 
-//3 Sum of even and odd numbers in the array
+//4-5 : Sum of even and odd numbers in the array
  let  evenTotal = 0;
  for (let i = 0; i < largest.length; i++) {
     if (largest[i] % 2 == 0) { 
@@ -63,7 +63,7 @@ console.log('Biggest Number', bigNum);
     }
 console.log('for-of-odd value',oddVal);
 
-// Middle value is even or odd
+// 6 Middle value is even or odd
 let c = [152,258,545,625,325,123,654,789,456,321];
 
 let even = 0;
