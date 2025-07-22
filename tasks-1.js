@@ -32,5 +32,33 @@ for (let i = 0; i < largest.length; i++) {
     }
 
 }
-console.log('Second Biggest Number', secondBig); // Output the second largest number in the array
+console.log('Second Biggest Number', secondBig); 
 console.log('Biggest Number', bigNum); 
+
+
+//3 Sum of even and odd numbers in the array
+ let  evenTotal = 0;
+ for (let i = 0; i < largest.length; i++) {
+    if (largest[i] % 2 == 0) { 
+      evenTotal  += largest[i]; 
+    //console.log('even total' ,evenTotal);
+    } 
+  }
+ console.log('even total' ,evenTotal); 
+
+ let oddTotal = 0;
+    for (let i = 0; i < largest.length; i++) {
+        if (largest[i] % 2 !== 0) { 
+        oddTotal += largest[i];
+        console.log('odd totals' ,oddTotal); 
+        } 
+        
+    }
+ let oddVal =0;  
+ for (let oddValue of largest) {
+         if (oddValue % 2 !== 0) {
+            oddVal += oddValue;
+            console.log('oddtotal',oddVal); // Add to odd total
+        }
+    }
+console.log('for-of-odd value',oddVal);
