@@ -8,7 +8,7 @@ console.log('Sum of the array', sum);
 
 
 
-// 2 & 3 Tasks :  Biggest number and second-biggest number in the array
+// 2 & 3 Tasks:  Biggest number and second-biggest number in the array
 let  bigNum = 0;
 for (let i = 0; i < largest.length; i++) {
     if (largest[i] > bigNum) {
